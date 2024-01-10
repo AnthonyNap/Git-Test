@@ -4,3 +4,11 @@ body {
     font-family: Arial, sans-serif;
     font-size: 2em;
 }
+
+h1 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 26px;
+}
