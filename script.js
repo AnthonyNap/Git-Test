@@ -1,3 +1,5 @@
+// script.js
+
 let prenom = "Nap";
 let agepro = 39;
 let poidsl = 80;
