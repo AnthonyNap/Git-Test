@@ -1,7 +1,16 @@
 body {
-    font-family: Arial,sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 700px;
     margin: 0 auto;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
 }
 
 form {
@@ -13,6 +22,15 @@ input {
     flex: 1;
     padding: 0.5rem;
     font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: blueviolet;
+    outline: none;
 }
 
 button {
@@ -22,6 +40,8 @@ button {
     padding: 0.5rem 1rem;
     font-size: 1rem;
     cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
 }
 
 button:hover {
@@ -30,6 +50,7 @@ button:hover {
 
 ul {
     padding: 0;
+    margin: 0;
 }
 
 li {
@@ -38,8 +59,12 @@ li {
     padding: 0.5rem;
     margin-bottom: 0.5rem;
     cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
 }
 
 li:hover {
     background-color: rgb(185, 184, 184);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
