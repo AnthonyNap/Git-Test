@@ -1,8 +1,9 @@
 body {
+    background: url('https://wallpapercave.com/wp/wp9249694.jpg') no-repeat center center fixed; 
+    background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 700px;
     margin: 0 auto;
-    background-color: #f4f4f4;
     color: #333;
     padding: 20px;
     box-sizing: border-box;
@@ -10,7 +11,8 @@ body {
 
 h1 {
     text-align: center;
-    color: #333;
+    background: #333;
+    color: #d11212;
 }
 
 form {
@@ -44,6 +46,11 @@ button {
     transition: background-color 0.3s;
 }
 
+/* Styles pour l'icône dans le bouton */
+button i {
+    margin-right: 5px; /* Ajoute un peu d'espace entre l'icône et le texte */
+}
+
 button:hover {
     background-color: rgb(53, 17, 87);
 }
@@ -61,10 +68,11 @@ li {
     cursor: pointer;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    transition: background-color 0.3s, box-shadow 0.3s;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
 }
 
 li:hover {
     background-color: rgb(185, 184, 184);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+    transform: translateY(-2px);
 }
